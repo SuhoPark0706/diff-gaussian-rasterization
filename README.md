@@ -4,8 +4,9 @@
 
 We modify the dependency name as **diff_gauss** to avoid dependecy conflict with the original version. You can install our repo by executing the following command lines
 ```shell
-git clone --recurse-submodules https://github.com/slothfulxtx/diff-gaussian-rasterization.git 
+git clone --recurse-submodules https://github.com/SuhoPark0706/diff-gaussian-rasterization.git 
 cd diff-gaussian-rasterization
+git reset --hard b1e1cb83e27923579983a9ed19640c6031112b94
 python setup.py install
 ```
 
